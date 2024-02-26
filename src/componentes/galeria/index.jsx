@@ -5,7 +5,7 @@ import Populares from "./Populares"
 import Imagem from "./Imagem"
 
 const GaleriaContainer = styled.div`
-    display:flex;
+    display: flex;
     gap: 24px;
 `
 
@@ -20,7 +20,7 @@ const ImagensContainer = styled.section`
     gap: 24px;
 `
 
-const Galeria = ({ fotos = [], aoFotoSelecionada,aoAlternarFavorito }) => {
+const Galeria = ({ fotos = [], aoFotoSelecionada, aoAlternarFavorito }) => {
     return (
         <>
             <Tags />
