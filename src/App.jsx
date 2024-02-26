@@ -50,6 +50,7 @@ const App = () => {
           </ConteudoGaleria>
         </MainContainer>
       </AppContainer>
+      <ModalZoom />
     </FundoGradiente>
   )
 }
